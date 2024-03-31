@@ -37,13 +37,16 @@ html {
 	letter-spacing: 2px;
 	text-align: center;
 	color: #f35626;
+  background-clip: text;
 	background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+  animation: reverse;
 	-webkit-animation: hue 2s infinite linear;
 }
 
-@-webkit-keyframes hue {
+
+@keyframes hue {
   from {
     -webkit-filter: hue-rotate(0deg);
   }
