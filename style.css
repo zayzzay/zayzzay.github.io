@@ -1,28 +1,118 @@
 
-.imgbg {
-    opacity: 0.6;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.imgwrap {
-  overflow: hidden;
-  position: relative;
-}
-
-.imgcontent {
-  position: relative;
-}
 
 @font-face {
   font-family: "CherryBomb";
-  src: url("websiteassets\cherry bomb.ttf") format("woff");
+  src: url("websiteassets/fonts/cherry bomb.ttf") format("woff");
+  /* Add additional formats (e.g., .ttf) if needed */
+}
+
+@font-face {
+  font-family: "Cherish";
+  src: url("websiteassets/fonts/Cherish.ttf") format("woff");
   /* Add additional formats (e.g., .ttf) if needed */
 }
 
 h1 {
-  font-family: "CherryBomb", Times, serif;
+  font-family: "Cherish", Times, serif;
+  color: #ff80ff;
+  -webkit-text-stroke: black;
+  -webkit-text-stroke-width: .05px;
 }
+
+p {
+  font-family: "Cherrybomb", Times, serif;
+  color: #ff1aff;
+  -webkit-text-stroke: black;
+  -webkit-text-stroke-width: 1px;
+  font-size: 30px;
+}
+
+html {
+	margin:  0 4rem;
+}
+.gradienttext {
+	font-family: "Cherrybomb", Helvetica, Arial, sans-serif;
+	font-size: 50px;
+	font-weight:  100;
+	letter-spacing: 2px;
+	text-align: center;
+	color: #f35626;
+	background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: hue 2s infinite linear;
+}
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+
+.user {
+  display: inline-block;
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+
+  object-fit: cover;
+}
+
+
+li.thing {
+  display: inline;
+}
+
+.links {font-family: "Cherish", Times, serif; 
+  text-decoration: none; 
+  color: #ff1aff;
+  font-size: 20px;
+  -webkit-text-stroke: black;
+  -webkit-text-stroke-width: 1px;}
+
+  .links2 {font-family: "Cherish", Times, serif; 
+    text-decoration: none; 
+    color: #ff80ff;
+    font-size: 20px;
+    -webkit-text-stroke: black;
+    -webkit-text-stroke-width: 1px;}
+
+
+
+    table.customTable {
+      font-family: "Cherrybomb", Times, serif; 
+      color: #ff1aff;
+      -webkit-text-stroke: black;
+    -webkit-text-stroke-width: .12px;
+      width: 75%;
+      background-color: #FFFFFF;
+      border-collapse: collapse;
+      border-width: 2px;
+      border-color: #FF80FF;
+      border-style: solid;
+
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    table.customTable td, table.customTable th {
+      border-width: 2px;
+      border-color: #FF1AFF;
+      border-style: solid;
+      padding: 10px;
+      color:FF80FF;
+      -webkit-text-stroke: black;
+      -webkit-text-stroke-width: .12px;
+    }
+    
+    table.customTable thead {
+      background-color: #FF80FF;
+      -webkit-text-stroke: black;
+      -webkit-text-stroke-width: .12px;
+    }
+
+
+    
