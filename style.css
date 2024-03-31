@@ -16,14 +16,14 @@ h1 {
   font-family: "Cherish", Times, serif;
   color: #ff80ff;
   -webkit-text-stroke: black;
-  -webkit-text-stroke-width: .05px;
+  -webkit-text-stroke-width: .1px;
 }
 
 p {
   font-family: "Cherrybomb", Times, serif;
   color: #ff1aff;
-  -webkit-text-stroke: black;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke: #560058;
+  -webkit-text-stroke-width: 1.7px;
   font-size: 30px;
 }
 
@@ -67,19 +67,20 @@ html {
 
 li.thing {
   display: inline;
+  
 }
 
 .links {font-family: "Cherish", Times, serif; 
   text-decoration: none; 
   color: #ff1aff;
-  font-size: 20px;
+  font-size: 25px;
   -webkit-text-stroke: black;
   -webkit-text-stroke-width: 1px;}
 
   .links2 {font-family: "Cherish", Times, serif; 
     text-decoration: none; 
     color: #ff80ff;
-    font-size: 20px;
+    font-size: 25px;
     -webkit-text-stroke: black;
     -webkit-text-stroke-width: 1px;}
 
